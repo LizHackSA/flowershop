@@ -10,7 +10,7 @@ namespace FlowerShop
         double Price { get; }
         double Profit { get; }
         IReadOnlyList<IFlower> Ordered { get; }
-        void AddFlowers(IFlower flower, int n);
+        void AddFlowers(IFlower flower, IFlowerDAO dAO, int n);
         IClient Client { get; }
     }
 }
