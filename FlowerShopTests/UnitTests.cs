@@ -1,4 +1,7 @@
 using NUnit.Framework;
+using NSubstitute​;
+using FlowerShop;
+using System.Linq;
 
 namespace Tests
 {
