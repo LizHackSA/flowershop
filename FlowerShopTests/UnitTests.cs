@@ -7,6 +7,10 @@ namespace Tests
 {
     public class Tests
     {
+        /*
+         * For part two question 7 and 8, I did them at the same time using test two.
+         */
+
         [SetUp]
         public void Setup()
         {
